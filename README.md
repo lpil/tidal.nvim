@@ -1,4 +1,4 @@
 Tidal Neovim
 ============
 
-Hello, world!
+Making waves.
