@@ -1,6 +1,9 @@
 language: c
 sudo: true
 
+cache:
+  - vader.vim
+
 before_script:
   - sudo apt-get -y install software-properties-common
   - sudo add-apt-repository -y ppa:neovim-ppa/unstable
