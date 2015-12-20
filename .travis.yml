@@ -9,7 +9,7 @@ before_script:
   - git clone https://github.com/junegunn/vader.vim.git
 
 script:
-  - nvim -u test/ci_nvimrc.vim -c 'Vader! test/*.vader'
+  - make test_ci
 
 notifications:
   email: false
